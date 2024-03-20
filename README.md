@@ -1,6 +1,7 @@
 # Node Installer
 Windows Commandline tool to install NodeJS without admin privileges.
 
+![GitHub License](https://img.shields.io/github/license/Moderrek/node-install)
 [![Github All Releases](https://img.shields.io/github/downloads/Moderrek/node-install/total.svg)]()
 
 # How to run
