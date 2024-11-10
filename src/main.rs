@@ -6,7 +6,7 @@ use downloader::{Download, Downloader};
 use winreg::{enums::*, RegKey};
 
 fn main() {
-    println!("User NodeJS Installer v0.1.0\nMIT License created by Tymon Woźniak\n");
+    println!("User NodeJS Installer v0.1.1\nMIT License created by Tymon Woźniak\n");
     let user_dirs = UserDirs::new().unwrap();
     let install_dir = user_dirs.home_dir().join(".node");
     println!("NodeJS path: {:?}", install_dir);
@@ -26,7 +26,7 @@ fn main() {
     if !downloaded_file.exists() {
         println!("Downloading...");
         let mut downloader = Downloader::builder().build().expect("Failed to create downloader instance");
-        let downloads = [Download::new("https://nodejs.org/dist/v21.7.1/node-v21.7.1-win-x64.zip")];
+        let downloads = [Download::new("https://nodejs.org/dist/v23.1.0/node-v23.1.0-win-x64.zip")];
 
         downloader.download(&downloads).unwrap();
         println!("Successfully downloaded binary archive.");

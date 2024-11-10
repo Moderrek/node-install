@@ -4,7 +4,7 @@ authors = ["Tymon Woźniak"]
 license = "MIT"
 license-file = "LICENSE"
 keywords = ["installer", "windows", "node", "local", "noadmin"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 publish = false
 
